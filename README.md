@@ -1,4 +1,4 @@
-## I would like to say Welcome。 
+## I would like to say Welcome.
 
 You can use the [editor on GitHub](https://github.com/hougd7/hougd7.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
