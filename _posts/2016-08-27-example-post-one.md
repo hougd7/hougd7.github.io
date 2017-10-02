@@ -1,10 +1,8 @@
 ---
-title: Description of an Alembic
+title: EM的一个一般性的解释
 category: ML
 feature_image: "https://unsplash.it/1200/400?image=200"
 ---
-
-## EM的一个一般性的解释
 
 ### 出发点
 最大化 likelihood function 
