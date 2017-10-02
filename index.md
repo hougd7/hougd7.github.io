@@ -2,7 +2,7 @@
 title: About this blog
 feature_text: |
   ## K
-   
+  .              . 
 feature_image: "main.jpg"
 excerpt: "Alembic is a starting point for [Jekyll](https://hougd7.github.io/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
