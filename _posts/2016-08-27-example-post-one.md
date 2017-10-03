@@ -6,6 +6,7 @@ feature_image: "https://img3.doubanio.com/view/photo/l/public/p2146342463.webp"
 
 ### 出发点
 最大化 likelihood function 
+
 $$
 p(X|\theta) = \sum_{Z}p(X,Z|\theta)
 $$
@@ -14,6 +15,7 @@ $$
 \ln p(X|\theta) = \sum_{Z}q(Z)\ln p(X| \theta)
 =\sum_{Z}q(Z)\ln \sum_{Z}p(X,Z|\theta)
 $$
+
 其中 $$q(Z)$$ 是隐变量的概率分布
 
 ### 推导
@@ -22,9 +24,9 @@ $$
 \ln p(X| \theta) = L(q,\theta) + KL(q || p) 
 $$
 
-Part1: $$ L(q,\theta) = \sum_{Z}q(Z)\ln\{\frac{p(X,Z| \theta)}{q(Z)}\} $$
+Part1: $$ L(q,\theta) = \sum_{Z}q(Z)\ln\{\frac{p(X,Z \left | \theta)}{q(Z)}\} $$
 
-Part2: $$ KL(q || p)=-\sum_{Z}q(Z)\ln\{\frac{p(Z | X,\theta)}{q(Z)}\} $$
+Part2: $$ KL(q \left \| p)=-\sum_{Z}q(Z)\ln\{\frac{p(Z \left | X,\theta)}{q(Z)}\} $$
 
 注意到 $$ L(q,\theta) $$ 是 $$q(Z)$$ 的泛函和 $$\theta$$ 的函数，同时 
 $$KL(q || p)\ge 0$$。
