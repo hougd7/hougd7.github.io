@@ -24,12 +24,14 @@ $$
 \ln p(X| \theta) = L(q,\theta) + KL(q || p) 
 $$
 
-Part1: $$ 
+Part1: 
+$$ 
 L(q,\theta) = \sum_{Z}q(Z)\ln\{\frac{p(X,Z | \theta)}{q(Z)}\} 
 $$
 
-Part2: $$ 
-KL(q \left || p)=-\sum_{Z}q(Z)\ln\{\frac{p(Z | X,\theta)}{q(Z)}\} 
+Part2: 
+$$ 
+KL(q || p)=-\sum_{Z}q(Z)\ln\{\frac{p(Z | X,\theta)}{q(Z)}\} 
 $$
 
 注意到 $$ L(q,\theta) $$ 是 $$q(Z)$$ 的泛函和 $$\theta$$ 的函数，同时 
@@ -44,6 +46,3 @@ $$ q(Z) = p(Z| X,\theta^{old}) $$
 * M步骤：
 $$ \theta = arg\max_{\theta}Q(\theta,\theta^{ild}) $$
 
-```python
-import something
-```
