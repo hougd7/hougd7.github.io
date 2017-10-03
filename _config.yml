@@ -96,7 +96,7 @@ navigation_header:
 # navigation_footer:
 #   Created by David Darnes: https://darn.es
 
-markdown: maruku
+markdown: kramdown
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes
