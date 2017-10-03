@@ -1,7 +1,7 @@
 ---
 title: EM的一个一般性的解释
 category: ML
-feature_image: "https://unsplash.it/1200/400?image=200"
+feature_image: "https://img3.doubanio.com/view/photo/l/public/p2146342463.webp"
 ---
 
 ### 出发点
@@ -15,9 +15,9 @@ feature_image: "https://unsplash.it/1200/400?image=200"
 
 \[\ln p(X|\theta) = L(q,\theta) + KL(q||p)\]
 
-Part1: $$L(q,\theta) = \sum_{Z}q(Z)\ln\{\frac{p(X,Z|\theta)}{q(Z)}\}$$
+Part1: $$ L(q,\theta) = \sum_{Z}q(Z)\ln\{\frac{p(X,Z\|\theta)}{q(Z)}\} $$
 
-Part2: $KL(q||p)=-\sum_{Z}q(Z)\ln\{\frac{p(Z|X,\theta)}{q(Z)}\}$
+Part2: $$ KL(q||p)=-\sum_{Z}q(Z)\ln\{\frac{p(Z|X,\theta)}{q(Z)}\} $$
 
 注意到 $L(q,\theta)$ 是 $q(Z)$ 的泛函和 $\theta$ 的函数，同时 $KL(q||p)\ge 0$。
 
