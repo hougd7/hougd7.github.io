@@ -9,13 +9,13 @@ feature_image: "https://unsplash.it/1200/400?image=200"
 \(p(X|\theta) = \sum_{Z}p(X,Z|\theta)\)
 \(\ln p(X|\theta) = \sum_{Z}q(Z)\ln p(X| \theta)
 =\sum_{Z}q(Z)\ln \sum_{Z}p(X,Z|\theta)\)
-其中 $q(Z)$ 是隐变量的概率分布
+其中 $$q(Z)$$ 是隐变量的概率分布
 
 ### 推导
 
 \[\ln p(X|\theta) = L(q,\theta) + KL(q||p)\]
 
-Part1: $L(q,\theta) = \sum_{Z}q(Z)\ln\{\frac{p(X,Z|\theta)}{q(Z)}\}$
+Part1: $$L(q,\theta) = \sum_{Z}q(Z)\ln\{\frac{p(X,Z|\theta)}{q(Z)}\}$$
 
 Part2: $KL(q||p)=-\sum_{Z}q(Z)\ln\{\frac{p(Z|X,\theta)}{q(Z)}\}$
 
